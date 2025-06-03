@@ -1,0 +1,21 @@
+.motivation__intro, .motivation__section-description{
+    font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: center;
+color: var(--blue-80);
+}
+
+.motivation__section-title{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: var(--blue-80);
+    text-align: center;
+    margin-top: 36px;
+    margin-bottom: 16px;
+    display: block;
+}

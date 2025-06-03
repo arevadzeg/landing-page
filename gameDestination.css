@@ -1,0 +1,47 @@
+.game-destination__grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+}
+
+
+.game-card{
+    width: 45%;
+    position: relative;
+}
+
+
+.game-card__btn{
+    position: absolute;
+    z-index: 1;
+    bottom: 16px;
+    left: 16px;
+
+}
+
+.motivation__title, .game-destination__title, .why-choose-us__title{
+    font-family: Lato;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+vertical-align: middle;
+text-transform: uppercase;
+color: var(--blue-100);
+text-align: center;
+margin-top: 36px;
+margin-bottom: 36px;
+
+}
+
+.motivation__title:after, .why-choose-us__title:after, .game-destination__title::after{
+    content: "";
+    height: 4px;
+    width: 32px;
+    background-color: var(--gold-100);
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 26px;
+}

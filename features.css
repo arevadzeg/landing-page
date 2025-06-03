@@ -1,0 +1,43 @@
+.features {
+    background-color: var(--dark-blue);
+    padding: 16px 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feature{
+    display: flex;
+        align-items: center;
+        gap:8px
+
+}
+
+.feature-title{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-transform: uppercase;
+    color: var(--gold-100);
+}
+
+
+.feature-subtitle{
+color: var(--blue-40);
+
+    font-family: Lato;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0%;
+
+
+}
+
+
+.feature-text{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,51 @@
+.site-header{
+    background-image: url('../../assets/main-banner.jpg');
+    height: -webkit-fill-available;
+}
+
+.site-header .logo{
+    padding: 16px;
+}
+
+
+.site-header__content{
+    margin-top:20%
+}
+
+.site-header__title{
+    color: var(--gold-100);
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.site-header__subtitle{
+    margin-top: 8px;
+    color: var(--white);
+font-family: Lato;
+font-weight: 700;
+font-size: 24px;
+line-height: 32px;
+letter-spacing: 0%;
+text-align: center;
+text-transform: uppercase;
+
+}
+
+.terms-conditions{
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: uppercase;
+    color: var(--blue-40);
+    display: block;
+    text-align: center;
+    margin-top: 14px;
+
+}
+
