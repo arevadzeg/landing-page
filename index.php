@@ -7,12 +7,13 @@
   <title>Sportsbook Landing Page</title>
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="styles.css" />
-  <link rel="stylesheet" href="gameDestination.css" />
-  <link rel="stylesheet" href="whyUs.css" />
-  <link rel="stylesheet" href="header.css" />
-  <link rel="stylesheet" href="motivation.css" />
-  <link rel="stylesheet" href="footer.css" />
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/game-destination.css" />
+  <link rel="stylesheet" href="styles/why-us.css" />
+  <link rel="stylesheet" href="styles/header.css" />
+  <link rel="stylesheet" href="styles/motivation.css" />
+  <link rel="stylesheet" href="styles/features.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,8 +29,8 @@
 
   <main>
     <?php include 'sections/features/features.php'; ?>
-    <?php include 'sections/gameDestination/gameDestination.php'; ?>
-    <?php include 'sections/whyUs/whyUs.php'; ?>
+    <?php include 'sections/game-destination/game-destination.php'; ?>
+    <?php include 'sections/why-us/why-us.php'; ?>
     <?php include 'sections/motivation/motivation.php'; ?>
     <?php include 'sections/footer/footer.php'; ?>
   </main>

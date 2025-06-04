@@ -20,8 +20,8 @@
 .game-card__btn {
     position: absolute;
     z-index: 1;
-    bottom: 16px;
-    left: 16px;
+    bottom: 24px;
+    left: 32px;
 
 }
 

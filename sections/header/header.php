@@ -1,5 +1,5 @@
 <header class="site-header">
-  <img src="./assets/logo.png" alt="Logo" class="logo" />
+  <img src="./assets/svg/app-logo.svg" alt="app main Logo" class="logo" />
 
   <div class="site-header__content">
     <p class="site-header__title">celebrate SPORTSbook 300% bonus</p>
