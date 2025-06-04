@@ -1,15 +1,23 @@
 .site-header{
     background-image: url('../../assets/main-banner.jpg');
     height: -webkit-fill-available;
+        background-position-x: center;
+        height: min-content;
 }
 
 .site-header .logo{
-    padding: 16px;
+    padding: 24px;
+    width: 231px;
+    height:37px;
+    box-sizing: content-box;
 }
 
 
 .site-header__content{
-    margin-top:20%
+    margin-top:415px;
+    padding-bottom: 32px;
+    width: 100%;
+    background-color: var(--blue-100);
 }
 
 .site-header__title{
@@ -21,10 +29,10 @@
     letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .site-header__subtitle{
-    margin-top: 8px;
     color: var(--white);
 font-family: Lato;
 font-weight: 700;
@@ -33,6 +41,7 @@ line-height: 32px;
 letter-spacing: 0%;
 text-align: center;
 text-transform: uppercase;
+margin-bottom: 24px;
 
 }
 
@@ -45,7 +54,7 @@ text-transform: uppercase;
     color: var(--blue-40);
     display: block;
     text-align: center;
-    margin-top: 14px;
+    margin-top: 24px;
 
 }
 

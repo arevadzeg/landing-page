@@ -11,10 +11,11 @@
         deposit 100 get 300<br />
         easy deposit, fast withdrawal, guaranteed pay
       </p>
-    </div>
-
-    <button class="btn">CLAIM NOW</button>
+          <button class="btn">CLAIM NOW</button>
 
     <span class="terms-conditions">terms & conditions</span>
+
+    </div>
+
 
 </header>
