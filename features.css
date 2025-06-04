@@ -6,14 +6,13 @@
     align-items: center;
 }
 
-.join-flow__step{
+.join-flow__step {
     display: flex;
-        align-items: center;
-        gap:16px
-
+    align-items: center;
+    gap: 16px
 }
 
-.join-flow__title{
+.join-flow__title {
     font-family: Lato;
     font-weight: 700;
     font-size: 20px;
@@ -24,20 +23,20 @@
 }
 
 
-.join-flow__subtitle{
-color: var(--blue-40);
+.join-flow__subtitle {
+    color: var(--blue-40);
 
     font-family: Lato;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 0%;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
 
 
 }
 
 
-.join-flow__text{
+.join-flow__text {
     display: flex;
     flex-direction: column;
     gap: 4px;

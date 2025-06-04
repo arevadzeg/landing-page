@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="whyUs.css" />
         <link rel="stylesheet" href="header.css" />
         <link rel="stylesheet" href="motivation.css" />
+        <link rel="stylesheet" href="footer.css" />
 
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,6 +38,10 @@
 
             <?php
     include 'sections/motivation/motivation.php';
+    ?>
+
+                <?php
+    include 'sections/footer/footer.php';
     ?>
 
 

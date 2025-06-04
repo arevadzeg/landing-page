@@ -1,4 +1,4 @@
-.why-choose-us__features{
+.why-choose-us__features {
     display: flex;
     gap: 1%;
     justify-content: center;
@@ -6,26 +6,26 @@
 }
 
 
-.why-choose-us{
+.why-choose-us {
     background-color: var(--white);
 
 }
 
-.feature-card{
+.feature-card {
     width: 24%;
-        align-items: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.feature-card__icon{
+.feature-card__icon {
     height: 160px;
     width: 160px;
     margin-top: 16px;
 }
 
-.feature-card__description{
+.feature-card__description {
     text-align: center;
     font-family: Lato;
     font-weight: 400;
@@ -37,7 +37,7 @@
     color: var(--blue-80);
 }
 
-.feature-card__heading{
+.feature-card__heading {
     font-family: Lato;
     font-weight: 700;
     font-size: 16px;

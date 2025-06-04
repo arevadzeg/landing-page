@@ -1,0 +1,130 @@
+.site-footer {
+
+    padding: 32px 24px 40px 24px;
+    background-color: var(--blue-100);
+}
+
+
+.site-footer__terms-link {
+    display: flex;
+    padding: 20px 16px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background: var(--blue-90);
+    margin-bottom: 32px;
+    color: var(--white);
+    font-family: Lato;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    /* 142.857% */
+    text-transform: uppercase;
+}
+
+.site-footer__seperator {
+    width: 100%;
+    height: 1px;
+    background: var(--blue-80);
+}
+
+
+.site-footer__partners {
+    display: flex;
+    gap: 40px;
+    margin-top: 32px;
+}
+
+
+.partner-logo {
+    display: flex;
+    gap: 8px;
+}
+
+.partner-logo__club {
+    color: var(--white);
+
+    /* Text Highlight / SM */
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    /* 150% */
+}
+
+.partner-logo__years {
+    color: var(--white);
+
+    /* Paragraphs / SM */
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 150% */
+}
+
+
+.partner-logo__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.site-footer__disclaimer,
+.site-footer__cookies,
+.site-footer__responsible-gaming {
+    color: var(--blue-50);
+
+    /* Paragraphs / SM */
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    /* 150% */
+}
+
+.site-footer__cookies-hilight,
+.site-footer__responsible-highlight {
+    color: var(--blue-50);
+
+    /* Inline Text Link / SM */
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: auto;
+    text-underline-offset: auto;
+    text-underline-position: from-font;
+}
+
+.site-footer__bottom {
+    padding: 24px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-footer__disclaimer {
+    margin-bottom: 8px;
+}
+
+
+.site-footer__branding {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    color: var(--blue-50);
+
+    font-family: Lato;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px;
+}
