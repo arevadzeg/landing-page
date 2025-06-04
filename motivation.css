@@ -1,14 +1,15 @@
-.motivation__intro, .motivation__section-description{
+.motivation__intro,
+.motivation__section-description {
     font-family: Lato;
-font-weight: 400;
-font-size: 14px;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: center;
-color: var(--blue-80);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: var(--blue-80);
 }
 
-.motivation__section-title{
+.motivation__section-title {
     font-family: Lato;
     font-weight: 700;
     font-size: 20px;
@@ -20,6 +21,6 @@ color: var(--blue-80);
     display: block;
 }
 
-.motivation{
+.motivation {
     padding: 0 24px 80px 24px;
 }
