@@ -1,6 +1,14 @@
 .why-choose-us__features{
     display: flex;
     gap: 1%;
+    justify-content: center;
+    padding-bottom: 72px;
+}
+
+
+.why-choose-us{
+    background-color: var(--white);
+
 }
 
 .feature-card{

@@ -1,16 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Landing Page</title>
 
-  <link rel="stylesheet" href="header.css" />
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
 
-  <header class="site-header">
+<header class="site-header">
     <img src="./assets/logo.png" alt="Logo" class="logo" />
 
     <div class="site-header__content">
@@ -27,7 +17,4 @@
 
     <span class="terms-conditions">terms & conditions</span>
 
-  </header>
-
-</body>
-</html>
+</header>

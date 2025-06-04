@@ -1,13 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Landing Page</title>
-
-  <link rel="stylesheet" href="motivation.css" />
-</head>
-<body>
 
   <div class="motivation">
     <h3 class="motivation__title">
@@ -39,6 +29,3 @@
     </div>
 
   </div>
-
-</body>
-</html>

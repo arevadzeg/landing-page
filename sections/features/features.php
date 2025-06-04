@@ -10,39 +10,40 @@
 <body>
 
 
-    <div class="features">
-      <span class="feature feature-join-us">
-        <img src="./assets/join-us-icon.png" alt="Join Us Icon" class="feature-icon" />
-        <span class="feature-text">
-          <span class="feature-title">JOIN US</span>
-          <span class="feature-subtitle">It’s quick and easy</span>
-        </span>
-      </span>
-
-      <?php
-        include 'sections/header/arrow.php';
-      ?>
-
-      <span class="feature feature-deposit">
-        <img src="./assets/deposit-icon.png" alt="Deposit Icon" class="feature-icon" />
-        <span class="feature-text">
-          <span class="feature-title">Deposit</span>
-          <span class="feature-subtitle">Secure with 2-5min deposit time!</span>
-        </span>
-    
-      </span>
-          <?php
-          include 'sections/header/arrow.php';
-        ?>
-
-      <span class="feature feature-play">
-        <img src="./assets/play-icon.png" alt="Play Icon" class="feature-icon" />
-        <span class="feature-text">
-          <span class="feature-title">Play</span>
-          <span class="feature-subtitle">Start your winning journey!</span>
-        </span>
-      </span>
+<div class="join-flow">
+  <!-- Step 1: Join -->
+  <div class="join-flow__step join-flow__step--join">
+    <img src="./assets/join-us-icon.png" alt="Join Us Icon" class="join-flow__icon" />
+    <div class="join-flow__text">
+      <span class="join-flow__title">JOIN US</span>
+      <span class="join-flow__subtitle">It’s quick and easy</span>
     </div>
+  </div>
+
+  <!-- Arrow -->
+  <?php include 'sections/header/arrow.php'; ?>
+
+  <!-- Step 2: Deposit -->
+  <div class="join-flow__step join-flow__step--deposit">
+    <img src="./assets/deposit-icon.png" alt="Deposit Icon" class="join-flow__icon" />
+    <div class="join-flow__text">
+      <span class="join-flow__title">Deposit</span>
+      <span class="join-flow__subtitle">Secure with 2–5min deposit time!</span>
+    </div>
+  </div>
+
+  <!-- Arrow -->
+  <?php include 'sections/header/arrow.php'; ?>
+
+  <!-- Step 3: Play -->
+  <div class="join-flow__step join-flow__step--play">
+    <img src="./assets/play-icon.png" alt="Play Icon" class="join-flow__icon" />
+    <div class="join-flow__text">
+      <span class="join-flow__title">Play</span>
+      <span class="join-flow__subtitle">Start your winning journey!</span>
+    </div>
+  </div>
+</div>
 
 
 </body>

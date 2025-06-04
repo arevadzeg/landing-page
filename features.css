@@ -1,19 +1,19 @@
-.features {
+.join-flow {
     background-color: var(--dark-blue);
-    padding: 16px 64px;
+    padding: 28px 111px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.feature{
+.join-flow__step{
     display: flex;
         align-items: center;
-        gap:8px
+        gap:16px
 
 }
 
-.feature-title{
+.join-flow__title{
     font-family: Lato;
     font-weight: 700;
     font-size: 20px;
@@ -24,7 +24,7 @@
 }
 
 
-.feature-subtitle{
+.join-flow__subtitle{
 color: var(--blue-40);
 
     font-family: Lato;
@@ -37,7 +37,8 @@ letter-spacing: 0%;
 }
 
 
-.feature-text{
+.join-flow__text{
     display: flex;
     flex-direction: column;
+    gap: 4px;
 }
