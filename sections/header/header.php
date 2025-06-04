@@ -2,7 +2,7 @@
   <img src="./assets/svg/app-logo.svg" alt="app main Logo" class="logo" />
 
   <div class="site-header__content">
-    <h1 class="site-header__title">Celebrate SPORTSbook 300% Bonus</h1>
+    <h1 class="site-header__title">celebrate SPORTSBOOK 300% bonus</h1>
 
     <h2 class="site-header__subtitle">Welcome to World Cup</h2>
     <ul class="site-header__benefits">

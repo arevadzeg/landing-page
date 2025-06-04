@@ -47,7 +47,7 @@
     </div>
 
     <div class="partner-logo">
-      <img src='assets/svg/tothenham-logo.svg' />
+      <img src='assets/svg/tottenham-logo.svg' />
 
 
       <div class="partner-logo__info" alt="Tottenham Logo">

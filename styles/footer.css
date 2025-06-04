@@ -42,6 +42,11 @@
     gap: 8px;
 }
 
+.partner-logo img {
+    height: 40px;
+    width: 40px;
+}
+
 .partner-logo__club {
     color: var(--white);
 
@@ -127,4 +132,100 @@
     font-style: normal;
     font-weight: 700;
     line-height: 18px;
+}
+
+
+@media screen and (max-width:768px) {
+
+    .site-footer__terms-link {
+        margin-bottom: 24px;
+    }
+
+    .site-footer__partners {
+        place-content: center;
+    }
+
+
+    .partner-logo {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .partner-logo__club,
+    .partner-logo__years {
+        text-align: center;
+    }
+
+    .site-footer {
+        padding: 16px 16px 40px 16px
+    }
+
+}
+
+@media screen and (max-width:375px) {
+
+    .site-footer__terms-link {
+        font-size: 12px;
+        line-height: 18px;
+        padding: 16px;
+
+    }
+
+    .site-footer__partners {
+        margin-top: 24px;
+        flex-wrap: wrap;
+
+    }
+
+    .site-footer__partners {
+        gap: 24px;
+    }
+
+    .partner-logo {
+        width: calc(25% - 24px);
+    }
+
+    .partner-logo__club {
+        display: none;
+    }
+
+    .site-footer__partners .partner-logo:first-of-type {
+        width: 100%;
+    }
+
+    .site-footer__partners .partner-logo:first-of-type .partner-logo__club {
+        display: block;
+    }
+
+    .site-footer__partners .partner-logo:first-of-type .partner-logo__years {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+
+    .site-footer__partners .partner-logo:first-of-type img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .partner-logo__years {
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .site-footer__bottom {
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .partner-logo img {
+        height: 32px;
+        width: 32px;
+    }
+
+    .site-footer__disclaimer,
+    .site-footer__cookies {
+        text-align: center;
+    }
+
 }

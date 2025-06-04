@@ -110,3 +110,48 @@ table {
 .visually-hidden {
   display: none;
 }
+
+.motivation__title,
+.game-destination__title,
+.why-choose-us__title {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  color: var(--blue-100);
+  text-align: center;
+  margin-top: 64px;
+  margin-bottom: 48px;
+
+}
+
+
+.motivation__title:after,
+.why-choose-us__title:after,
+.game-destination__title::after {
+  content: "";
+  height: 4px;
+  width: 32px;
+  background-color: var(--gold-100);
+  display: block;
+  text-align: center;
+  margin: auto;
+  transform: translateY(20px);
+
+}
+
+
+@media screen and (max-width:768px) {
+
+  .motivation__title,
+  .game-destination__title,
+  .why-choose-us__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+
+}

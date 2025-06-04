@@ -3,6 +3,7 @@
     height: -webkit-fill-available;
     background-position-x: center;
     height: min-content;
+    background-repeat: no-repeat;
 }
 
 .site-header .logo {
@@ -17,7 +18,7 @@
     margin-top: 415px;
     padding-bottom: 32px;
     width: 100%;
-    background-color: var(--blue-100);
+    background: linear-gradient(to bottom, transparent 0%, transparent 20%, var(--blue-100) 20%, var(--blue-100) 100%);
 }
 
 .site-header__title {
@@ -59,5 +60,77 @@
     display: block;
     text-align: center;
     margin-top: 24px;
+
+}
+
+
+@media screen and (max-width:768px) {
+
+    .site-header__title {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .site-header__subtitle,
+    .site-header__benefits {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .terms-conditions {
+        margin-top: 32px;
+    }
+
+    .btn {
+        margin-top: 32px;
+    }
+
+    .site-header__content {
+        padding-bottom: 48px;
+    }
+}
+
+
+@media screen and (max-width:375px) {
+
+
+    .site-header {
+        background-image: url('../../assets/images/main-banner-small.png');
+        background-size: contain;
+
+    }
+
+    .site-header .logo {
+        padding: 16px 20px;
+        width: 154px;
+        height: 24px;
+        box-sizing: content-box;
+    }
+
+    .site-header__title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .site-header__subtitle,
+    .site-header__benefits {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .terms-conditions {
+        font-size: 10px;
+        line-height: 14px;
+        margin-top: 24px;
+    }
+
+    .btn {
+        margin-top: 24px;
+    }
+
+    .site-header__content {
+        padding-bottom: 40px;
+    }
+
 
 }
