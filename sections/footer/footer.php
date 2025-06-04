@@ -1,19 +1,19 @@
 <footer class="site-footer">
 
-  <span class="site-footer__terms-link">
+  <a class="site-footer__terms-link" href="/terms">
     welcome bonus Terms & Conditions
 
     <img src='assets/svg/arrowDown.svg' />
 
 
-  </span>
+  </a>
 
   <div class="site-footer__seperator"></div>
 
   <div class="site-footer__partners">
 
     <div class="partner-logo">
-      <img src='assets/svg/laLiga.svg' />
+      <img src='assets/svg/la-liga-logo.svg' alt="La Liga Logo" />
 
       <div class="partner-logo__info">
         <span class="partner-logo__club">Official Regional Partner</span>
@@ -22,7 +22,7 @@
     </div>
 
     <div class="partner-logo">
-      <img src='assets/svg/afc.svg' />
+      <img src='assets/svg/AFC-logo.svg' alt="AFC Logo" />
 
       <div class="partner-logo__info">
         <span class="partner-logo__club">AFC Bournemouth</span>
@@ -31,7 +31,7 @@
     </div>
 
     <div class="partner-logo">
-      <img src='assets/svg/crystalPalace.svg' />
+      <img src='assets/svg/crystal-palace-logo.svg' alt="Crystal Palace Logo" />
       <div class="partner-logo__info">
         <span class=" partner-logo__club">Crystal Palace</span>
         <span class="partner-logo__years">2015 - 2017</span>
@@ -39,7 +39,7 @@
     </div>
 
     <div class="partner-logo">
-      <img src='assets/svg/manchester.svg' />
+      <img src='assets/svg/manchester-logo.svg' alt="Manchester Logo" />
       <div class="partner-logo__info">
         <span class=" partner-logo__club">Manchester City</span>
         <span class="partner-logo__years">2011 - 2012</span>
@@ -47,10 +47,10 @@
     </div>
 
     <div class="partner-logo">
-      <img src='assets/svg/totenham.svg' />
+      <img src='assets/svg/tothenham-logo.svg' />
 
 
-      <div class="partner-logo__info">
+      <div class="partner-logo__info" alt="Tottenham Logo">
         <span class="partner-logo__club">Tottenham Hotspurs</span>
         <span class="partner-logo__years">2006 - 2010</span>
       </div>
@@ -66,11 +66,12 @@
     </div>
 
     <div class="site-footer__branding">
-      <img src='assets/svg/ga.svg' />
+      <img src="assets/svg/ga-logo.svg" alt="Gaming Authority logo" />
 
-      <img src='assets/svg/iTechLab.svg' />
+      <img src="assets/svg/itechlab-logo.svg" alt="iTech Labs certification logo" />
 
-      <img src='assets/svg/plus18.svg' />
+      <img src="assets/svg/plus-18-logo.svg" alt="18 plus age restriction icon" />
+
 
       <span class="site-footer__branding-text">LoremLogo.com 2025</span>
     </div>

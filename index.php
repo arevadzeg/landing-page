@@ -4,7 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Sportsbook Landing Page</title>
+  <meta name="description" content="Bet big with a 300% welcome bonus! Join our sportsbook, live casino, and play exciting games with fast withdrawals.">
+  <link rel="icon" href="/assets/images/favicon.png" />
+  <meta property="og:title" content="Sportsbook - Get 300% Bonus">
+  <meta property="og:description" content="Join our sportsbook, live casino and enjoy fast withdrawals with a 300% bonus!">
+  <meta property="og:image" content="/assets/images/social-preview.png">
+
+
+  <title>Sportsbook - Get 300% Bonus | Fast Deposit & Instant Withdrawal</title>
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="styles/styles.css" />

@@ -1,7 +1,7 @@
-<div class="motivation">
-  <h3 class="motivation__title">
+<section class="motivation">
+  <h2 class="motivation__title">
     Start your journey now
-  </h3>
+  </h2>
 
   <p class="motivation__intro">
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla semper pharetra condimentum. Cras pulvinar risus dignissim augue egestas eleifend. Sed euismod erat pulvinar ex blandit accumsan. Sed cursus eleifend quam, vitae auctor sapien accumsan sed. Cras nunc orci, pretium eu metus aliquet, ultricies maximus felis. Maecenas eu tellus vitae elit ultricies scelerisque. Vivamus eget mi hendrerit, efficitur justo eget, molestie velit. Aenean a eros nec libero egestas fermentum sed in metus.
@@ -27,4 +27,4 @@
     </p>
   </div>
 
-</div>
+</section>

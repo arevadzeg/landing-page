@@ -32,7 +32,8 @@
     margin-bottom: 16px;
 }
 
-.site-header__subtitle {
+.site-header__subtitle,
+.site-header__benefits {
     color: var(--white);
     font-family: Lato;
     font-weight: 700;
@@ -42,7 +43,10 @@
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 24px;
+}
 
+.site-header__subtitle {
+    margin-bottom: 0;
 }
 
 .terms-conditions {
