@@ -17,7 +17,6 @@
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    letter-spacing: 0%;
     text-transform: uppercase;
     color: var(--gold-100);
 }
@@ -29,9 +28,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
-    letter-spacing: 0%;
-
-
 }
 
 

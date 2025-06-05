@@ -28,7 +28,6 @@
     font-weight: 700;
     font-size: 40px;
     line-height: 48px;
-    letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 16px;
@@ -41,7 +40,6 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 32px;
-    letter-spacing: 0%;
     text-align: center;
     text-transform: uppercase;
     margin-bottom: 24px;
@@ -172,4 +170,12 @@
     }
 
 
+}
+
+@media screen and (max-width:300px) {
+
+
+    .site-header__content {
+        margin-top: 300px;
+    }
 }
