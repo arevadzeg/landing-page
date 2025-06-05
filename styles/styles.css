@@ -67,6 +67,7 @@ table {
 
 :root {
   --gold-100: #CAAB72;
+  --gold-200: #e6b800;
   --blue-40: #A7A9B0;
   --white: #ffffff;
   --dark-blue: #1A202C;
@@ -77,16 +78,24 @@ table {
 
 }
 
-
 .btn-base {
   font-family: Lato;
   font-weight: 900;
   border-radius: 60px;
   background-color: var(--gold-100);
+  color: #000;
   text-align: center;
   text-transform: uppercase;
   display: block;
   margin: auto;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.btn-base:hover {
+  background-color: var(--gold-200);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .btn {
@@ -105,6 +114,7 @@ table {
   height: 56px;
   letter-spacing: 0px;
 }
+
 
 
 .visually-hidden {
@@ -144,7 +154,7 @@ table {
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
 
   .motivation__title,
   .game-destination__title,

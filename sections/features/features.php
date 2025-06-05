@@ -30,4 +30,25 @@
       <span class="join-flow__subtitle">Start Winning</span>
     </div>
   </li>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const steps = document.querySelectorAll('.join-flow__step');
+
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            observer.unobserve(entry.target);
+          }
+        });
+      }, {
+        threshold: 0.3
+      });
+
+      steps.forEach(step => {
+        observer.observe(step);
+      });
+    });
+  </script>
+
 </ol>

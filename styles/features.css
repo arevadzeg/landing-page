@@ -42,7 +42,7 @@
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
 
     .join-flow {
         padding: 27px 53px;
@@ -65,7 +65,7 @@
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:480px) {
     .join-flow {
         flex-direction: column;
         gap: 24px;
@@ -98,4 +98,39 @@
         line-height: 20px;
     }
 
+}
+
+
+.join-flow__step {
+    transition: transform 0.6s ease, box-shadow 0.6s ease;
+    cursor: pointer;
+}
+
+
+.join-flow__step {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1.6s ease, transform 1.6s ease;
+}
+
+.join-flow__step.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.join-flow__arrow img {
+    animation: arrowWiggle 2s ease-in-out infinite;
+}
+
+@keyframes arrowWiggle {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
 }

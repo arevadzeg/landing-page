@@ -107,6 +107,13 @@
     text-decoration-thickness: auto;
     text-underline-offset: auto;
     text-underline-position: from-font;
+    cursor: pointer;
+}
+
+.site-footer__responsible-highlight:hover,
+.site-footer__cookies-hilight:hover {
+    color: var(--gold-100);
+    text-decoration: underline;
 }
 
 .site-footer__bottom {
@@ -135,7 +142,7 @@
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
 
     .site-footer__terms-link {
         margin-bottom: 24px;
@@ -162,7 +169,7 @@
 
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:480px) {
 
     .site-footer__terms-link {
         font-size: 12px;

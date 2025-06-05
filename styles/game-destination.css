@@ -10,6 +10,13 @@
 .game-card {
     width: calc(50% - 8px);
     position: relative;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
 .game-card__image {
@@ -26,7 +33,7 @@
 }
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
 
     .game-card__btn {
         display: none;
@@ -38,7 +45,7 @@
     }
 }
 
-@media screen and (max-width:375px) {
+@media screen and (max-width:480px) {
     .game-card {
         width: 100%;
     }

@@ -25,7 +25,7 @@
     padding: 0 24px 80px 24px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
 
     .motivation__intro,
     .motivation__section-description {
@@ -43,7 +43,7 @@
     }
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:1023px) {
 
     .motivation {
         padding-bottom: 40px;
